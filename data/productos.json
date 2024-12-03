@@ -1,54 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Teclado mecánico con retroiluminación RGB",
-    "description": "Teclado mecánico con retroiluminación RGB y switches MX",
-    "code": "TK001",
-    "price": 130,
+    "title": "Jamon",
+    "description": "Jamon Tipo N",
+    "code": "dad12v",
+    "price": "10000",
     "status": true,
-    "stock": 45,
-    "category": "Teclados para PC",
-    "thumbnails": [
-      "https://example.com/teclado1.jpg"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Teclado inalámbrico Bluetooth",
-    "description": "Teclado inalámbrico compacto con conexión Bluetooth y batería de larga duración",
-    "code": "TK002",
-    "price": 75,
-    "status": true,
-    "stock": 30,
-    "category": "Teclados para PC",
-    "thumbnails": [
-      "https://example.com/teclado2.jpg"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Teclado ergonómico",
-    "description": "Teclado ergonómico con teclas suaves y diseño dividido para mejorar la postura",
-    "code": "TK003",
-    "price": 90,
-    "status": true,
-    "stock": 20,
-    "category": "Teclados para PC",
-    "thumbnails": [
-      "https://example.com/teclado3.jpg"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Teclado mecánico con retroiluminación LED",
-    "description": "Teclado mecánico con retroiluminación LED de 16 millones de colores",
-    "code": "TK004",
-    "price": 80,
-    "status": true,
-    "stock": 100,
-    "category": "Teclados para PC",
-    "thumbnails": [
-      "https://example.com/teclado4.jpg"
-    ]
+    "stock": "4",
+    "category": "Comida",
+    "thumbnails": ""
   }
 ]
