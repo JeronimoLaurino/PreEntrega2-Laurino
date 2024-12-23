@@ -1,0 +1,114 @@
+/* Estilo general del carrito */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal del carrito */
+  .cart-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titulo del carrito */
+  .cart-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Lista de productos en el carrito */
+  .cart-products {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Estilo de cada producto en el carrito */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item h3 {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .cart-item p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .cart-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Estilos para el pie de página */
+  .cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .cart-footer .total-price {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .cart-footer .checkout-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-footer .checkout-button:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Responsive: En pantallas pequeñas */
+  @media screen and (max-width: 768px) {
+    .cart-container {
+      width: 95%;
+    }
+  
+    .cart-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cart-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cart-footer .checkout-button {
+      margin-top: 10px;
+    }
+  }
